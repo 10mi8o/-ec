@@ -1,6 +1,5 @@
 import * as Actions from 'reducks/users/actions';
 import initialState from 'reducks/store/initialState';
-import { Action } from 'history';
 
 export const UsersReducer = (state = initialState.users, action) => {
   switch(action.type) {
